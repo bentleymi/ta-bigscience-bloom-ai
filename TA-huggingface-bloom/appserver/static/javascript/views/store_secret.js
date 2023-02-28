@@ -4,7 +4,7 @@ import * as Splunk from './splunk_helpers.js'
 import * as Config from './setup_configuration.js'
 
 export async function perform(splunk_js_sdk, setup_options) {
-    var app_name = "TA-bigscience-bloom-ai";
+    var app_name = "TA-huggingface-bloom";
 
     var application_name_space = {
         owner: "nobody",
@@ -28,7 +28,7 @@ export async function perform(splunk_js_sdk, setup_options) {
         // Create a new secret
         storagePasswords.create({
           name: "admin", 
-          realm: "TA-bigscience-bloom-ai_realm", 
+          realm: "TA-huggingface-bloom_realm", 
           password: password}, 
           function(err, storagePassword) {
               if (err) 
