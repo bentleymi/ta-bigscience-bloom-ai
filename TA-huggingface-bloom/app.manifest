@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
   "info": {
-    "title": "BigScience Bloom AI",
+    "title": "Huggingface Bloom",
     "id": {
       "group": null,
-      "name": "TA-bigscience-bloom-ai",
+      "name": "TA-huggingface-bloom",
       "version": "1.0.0"
     },
     "author": [

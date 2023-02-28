@@ -1,6 +1,6 @@
 "use strict";
 
-const appName = "TA-bigscience-bloom-ai";
+const appName = "TA-huggingface-bloom";
 const appNamespace = {
     owner: "nobody",
     app: appName,
@@ -23,7 +23,7 @@ require([
         console.log("setup_page.js completeSetup called");
         // Value of API Key input from openai_setup.xml
         const keyToSave = $('#key_input').val();
-        const pwRealm = "TA-bigscience-bloom-ai";
+        const pwRealm = "TA-huggingface-bloom";
         let stage = 'Initializing the Splunk SDK for Javascript';
         try {
             // Initialize a Splunk Javascript SDK Service instance

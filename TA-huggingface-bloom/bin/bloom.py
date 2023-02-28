@@ -31,13 +31,13 @@ import requests
 logger = dcu.getLogger()
 
 # Setup namespace
-namespace = "TA-bigscience-bloom-ai"
+namespace = "TA-huggingface-bloom"
 
 def getConfig(sessionKey):
     try:
         service = Service(token=sessionKey)
         passwords = service.storage_passwords
-        response_xml = passwords.get('TA-bigscience-bloom-ai:api_key')["body"]
+        response_xml = passwords.get('TA-huggingface-bloom:api_key')["body"]
         root = ET.fromstring(str(response_xml))
         password = root.findall(".//*[@name='clear_password']")[0].text
         return password
