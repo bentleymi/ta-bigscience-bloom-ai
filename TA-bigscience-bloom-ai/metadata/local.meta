@@ -1,0 +1,8 @@
+[passwords/credential%3ATA-bigscience-bloom-ai%3Aapi_key%3A]
+owner = admin
+version = 9.0.3
+modtime = 1677610383.702484000
+
+[app/install]
+version = 9.0.3
+modtime = 1677610383.756743000
