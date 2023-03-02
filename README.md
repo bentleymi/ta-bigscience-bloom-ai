@@ -1,4 +1,4 @@
-# ta-bigscience-bloom-ai
+# ta-huggingface-bloom-ai
 
 # installation
 1. Install from latest tar.gz
