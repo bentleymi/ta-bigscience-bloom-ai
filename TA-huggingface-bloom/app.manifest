@@ -5,13 +5,13 @@
     "id": {
       "group": null,
       "name": "TA-huggingface-bloom",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     "author": [
       {
         "name": "Michael Bentley",
-        "email": null,
-        "company": null
+        "email": "info@splunkable.com",
+        "company": "Splunkable LLC"
       }
     ],
     "releaseDate": null,
